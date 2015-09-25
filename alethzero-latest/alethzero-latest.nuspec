@@ -4,7 +4,7 @@
         <id>AlethZero-Latest</id>
         <version>0.8.2.54-latest</version>
         <title>AlethZero Latest</title>
-        <authors>Chevdor</authors>
+        <authors>Chevdor,sgsshankar</authors>
         <owners>Chevdor</owners>
         <licenseUrl>https://github.com/ethereum/cpp-ethereum/blob/develop/LICENSE</licenseUrl>
         <projectUrl>https://github.com/chevdor/ethereum-chocolatey</projectUrl>
@@ -16,7 +16,6 @@
         <copyright>(C)2014 - Chevdor</copyright>
         <tags>Ethereum, AlethZero, Crypto, Ether, Contract</tags>
         <dependencies>
-            <dependency id="7zip.commandline" version="9.20.0.20130618" />
             <dependency id="vcredist2013" version="12.0.0.20140222" />
         </dependencies>
     </metadata>

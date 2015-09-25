@@ -1,4 +1,8 @@
-$packageName = 'AlethZero'    
+$packageName = 'Ethereum'
+$installPath = "C:\Program Files"
+$program = "Uninstall.exe"
 
-remove-item "$env:ProgramFiles\$packageName\"  -recurse -force -confirm:$false
-remove-Item -Path HKCU:\Software\ethereum\alethzero
+$app = Get-ChildItem -Path $installPath | Where-Object {$_.FullName -like '*Ether*'  } | select FullName
+cd $app.FullName
+Start-Process $program -Wait
+
